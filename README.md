@@ -1,0 +1,1 @@
+Just a project for The Odin Project html/css course. Assigned to re-create any search page of Google.com.
