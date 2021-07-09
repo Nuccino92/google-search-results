@@ -1,20 +1,21 @@
 body {
-    margin: 0;
+    font-family: arial, sans-serif;
 }
-.header-container {
+a {
+    color: black;
+    text-decoration: none;
+}
+nav {
     display: flex;
     justify-content: space-between;
 }
-#top-header > div {
+.top-header {
     display: flex;
-    border: 1px solid gray;    
+    align-items: center;
+    padding-inline-start: 1%;
+    padding-inline-end: 4%;
 }
 #google-logo {
-    height: 30px;
+    display: flex;
     width: 92px;
-}
-#search-bar {
-    width: 533px;
-    height: 39px;
-}
-
+    height: 30px;
