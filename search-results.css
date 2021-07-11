@@ -4,6 +4,7 @@ body {
 a {
     color: black;
     text-decoration: none;
+    display: flex;
 }
 nav {
     display: flex;
@@ -12,10 +13,119 @@ nav {
 .top-header {
     display: flex;
     align-items: center;
-    padding-inline-start: 1%;
-    padding-inline-end: 4%;
+    padding-inline-start: 1%;  
+    padding-inline-end: 2%;
+    margin-bottom: 0%;
 }
 #google-logo {
     display: flex;
     width: 92px;
     height: 30px;
+    padding-right: 37px;
+    padding-top: 4px;
+}
+.top-header > .search-div {
+    display: flex;
+    border-radius: 33px;
+    box-shadow: 0px 2px 7px 0px rgb(219, 217, 217);
+    width: 700px;
+    height: 45px;
+    justify-content: flex-start;  
+    align-items: center;
+}
+.top-header > .search-div:hover {
+    box-shadow: 0px 4px 17px 0px rgb(219, 217, 217);
+}
+.top-header > .search-div:focus-within {
+    box-shadow: 0px 4px 17px 0px rgb(219, 217, 217);
+}
+#search-bar { 
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    font-size: 17px;
+    width: 590px;
+    margin-right: 7px;
+    border: none;
+    border-right: 1px solid rgba(179, 175, 175, 0.472);   
+}
+#search-bar:focus {
+    outline: none;
+}
+#settings-icon {
+    margin-right: 10px;
+}
+#settings-icon:hover {
+    border-radius: 100%;
+    box-shadow: 0 0 0 9px rgb(231, 233, 235);
+    background-color: rgb(231, 233, 235);
+    background-blend-mode: lighten;
+}
+#apps-icon:hover {
+    border-radius: 100%;
+    box-shadow: 0 0 0 9px rgb(231, 233, 235);
+    background-color: rgb(231, 233, 235);
+    background-blend-mode: lighten;
+}
+#sign-in {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    padding-block: 9px;
+    padding-inline: 18px;
+    border-radius: 3px;
+    margin-left: 13px;
+}
+#sign-in:hover {
+    text-decoration: none;
+}
+#sign-in:active {
+    background-color: rgb(50, 121, 236);
+}
+.bottom-header {
+    height: 24px;
+    display: flex;
+    width: 700px;
+    padding-left: 150px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: rgb(95, 99, 104);
+    margin-left: 16px;
+    align-items: center;
+}
+#all {
+    padding-right: 20px;
+}
+#news {
+    padding-right: 20px;
+}
+#images {
+    padding-right: 20px;
+}
+#videos {
+    padding-right: 20px;
+}
+#shopping {
+    padding-right: 20px;
+}
+#more {
+    padding-right: 20px;
+}
+.bottom-header > button {
+    margin-left: 162px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding: 5px 11px 5px 11px;
+    border-radius: 4%;
+}
+#tools:hover {
+    box-shadow: 0px 0px 00px 1px rgb(194, 192, 192);
+    background: rgb(245, 243, 243);
+}
+.header-bottom-container {
+    height: 70px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
